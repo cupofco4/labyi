@@ -43,4 +43,5 @@ def function_G(max_nums: list):
     
     return sqrt(abs(sum_of_vector))
 
-print(max_col_square())
+if __name__ == '__main__':
+    print(max_col_square())
